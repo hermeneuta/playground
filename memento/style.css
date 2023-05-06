@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+
+html {
+    font-size: 120%;
+    box-sizing: border-box;
+  }
+
+body { 
+    background-color: white;
+    color: black;
+}
+
+main {
+    position: relative;
+    max-width: 100rem;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: 4fr;
+    /* grid-template-rows: auto repeat(3, 15rem) auto; */
+    gap: 2rem;
+}
+
+input {
+    max-width: 60px;
+}
+
+form {
+    width: 200px;
+}
+
+.display_timer {
+    position: relative;
+    max-width: 100rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr;
+    /* grid-template-rows: auto repeat(3, 15rem) auto; */
+    gap: 2rem;
+}
+
+.age {
+    position: relative;
+    max-width: 100rem;
+    margin: auto; 
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    /* grid-template-rows: auto repeat(3, 15rem) auto; */
+    /* gap: 2rem; */
+}
+
+.sex {
+    position: relative;
+    max-width: 100rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.memento {
+    position: relative;
+    max-width: 100rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr;
+}
+
+.memento_mori {
+    position: relative;
+    max-width: 100rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr;
+}
+
+.reset {
+    position: relative;
+    max-width: 100rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr;
+}
+
+button {
+    border: none;
+    background: none;
+    font-size: 1.2rem;
+    color: inherit;
+    cursor: pointer;
+}
+
+
